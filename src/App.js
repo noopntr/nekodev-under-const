@@ -36,9 +36,9 @@ function App(props) {
             <img src={VectorOne} alt='vector'></img>
           </div>
 
-          <div className="first-illustration">
+          {/* <div className="first-illustration">
             <img src={illustrationOne} alt='illustration'></img>
-          </div>
+          </div> */}
           <div className="my-container">
             <Home />
             <About />
