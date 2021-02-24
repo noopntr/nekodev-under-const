@@ -1,18 +1,27 @@
-import React from 'react'
+import React, { useState } from 'react'
 import emailjs from 'emailjs-com';
 import contact from '../assets/svg/howWeWork.svg'
 import Button from './Button';
 
 export const ContactForm = () => {
+
+    const [ isValid, setIsValid ] = useState(false);
+
+
+
     function sendEmail(e) {
         e.preventDefault();
-    
         emailjs.sendForm('service_3c9s50c', 'template_hgajgim', e.target, 'user_DmbAN19hktem5zuMTXWTj')
           .then((result) => {
               console.log(result.text);
+              setIsValid(true)
+              return isValid ? alert("თქვენი წერილი გაიგზავნა წარმატებით!") : null
           }, (error) => {
               console.log(error.text);
+              setIsValid(false)
+              return isValid ? alert("თქვენი წერილი ვერ გაიგზავნა :( სცადეთ ტელ. ნორმით ან მაილზით დაკავშირება.") : null
           });
+          e.target.reset();
     }
 
     return (
