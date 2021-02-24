@@ -1,6 +1,7 @@
 import React from 'react'
 // import { Container } from 'react-bootstrap'
 import Logo from '../assets/img/NekodevLogos/onlylogo_transparent.png'
+import { SecFooter } from '../components/SecFooter';
 
 export const Footer = () => {
     return (
@@ -20,6 +21,8 @@ export const Footer = () => {
                             </div>
                     </div>
                 </div>
+
+                <SecFooter />
             </footer>
     )
 }

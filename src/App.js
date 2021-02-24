@@ -1,7 +1,8 @@
 import './App.css';
+import './responsive/responsive.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import VectorOne from './assets/svg/Header/headerVector.svg'
-import illustrationOne from './assets/svg/Header/illustration.svg'
+
 import underAbout from './assets/svg/under-abt.svg'
 import underAboutTwo from './assets/svg/under-abt-two.svg'
 // import { Container } from 'react-bootstrap';
@@ -11,7 +12,7 @@ import { HowItWorks } from './components/HowItWorks';
 import { OfferCards } from './components/OfferCards';
 import { Footer } from './components/Footer';
 import { ContactForm } from './components/ContactForm';
-import { SecFooter } from './components/SecFooter';
+
 
 function App(props) {
   return (
@@ -19,9 +20,6 @@ function App(props) {
         <div className="illustrations col">
           <div className="headerVector">
             <img src={VectorOne} alt='vector'></img>
-          </div>
-          <div className="first-illustration">
-            <img src={illustrationOne} alt='illustration'></img>
           </div>
         </div>
         <div className="my-container">
@@ -41,7 +39,7 @@ function App(props) {
         </div>
 
         <Footer />
-        <SecFooter />
+        
     </div>
   );
 }

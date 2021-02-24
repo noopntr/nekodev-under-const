@@ -1,0 +1,746 @@
+@media screen and (min-width: 320px) and (max-width: 375px){
+
+  .my-container
+  {
+    width: 100%!important;
+  }
+
+  .main-content .in-content h1
+  {
+    font-size: 1rem!important;
+  }
+
+  .headerVector
+  {
+    width: 100%!important;
+    height: 100vh;
+  }
+
+  .headerVector img 
+  {
+    width: 100%!important;
+    object-fit: cover;
+
+  }
+
+  .first-illustration
+  {
+    display: block;
+    position: static;
+  }
+
+  .first-illustration img
+  {
+    width: 100%!important;
+  }
+
+  #home 
+  {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center!important;
+    margin-bottom: 2rem;
+  }
+
+  #home .nav-container
+  {
+    width: 100%;
+  }
+
+  #home .main-content .in-content
+  {
+    width: 100%!important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+  }
+
+  #home .main-content .in-content p
+  {
+    font-size: 0.9rem!important;
+    width: 271px;
+  }
+
+  #home .main-content .in-content h1
+  {
+    width: 271px;
+    font-size: 1.3rem!important;
+    font-weight: bold;
+  }
+
+  .header
+  {
+    padding: 0 1rem;
+  }
+
+  .left-nav li a h1
+  {
+    font-size: 1rem!important;
+    font-weight: bold;
+  }
+
+  .left-nav li a img
+  {
+    width: 40px;
+    height: 40px;
+  }
+  
+  .nav-li nav
+  {
+    display: none;
+  }
+
+  .sec-illustration
+  {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+  }
+
+  .sec-illustration img
+  {
+    width: 80%!important;
+  }
+
+  .about-content span
+  {
+    margin: 0 15px;
+  }
+
+  #footer
+  {
+    flex-direction: column;
+  }
+
+  .sec-footer .my-container
+  {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .sec-footer-right
+  {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contact-side {
+    width: 100%!important;
+    padding: 0 1rem!important;
+    margin-bottom: 2rem;
+  }
+
+  .contact-form {
+    width: 100%!important;
+  }
+
+  .card
+  {
+    width: 100%!important;
+  }
+
+  #offers
+  {
+    width: 100%!important;
+    padding: 0 1rem!important;
+  }
+
+  .footer-logo img
+  {
+      width: 40px!important;
+      height: 40px;
+  }
+
+  #footer-Two
+  {
+    padding: 1rem 0;
+    display: flex;
+    flex-direction: column;
+  }
+
+  #footer-Two div
+  {
+    margin-bottom: 1rem;
+  }
+
+  .btn 
+  {
+    width: 300px!important;
+  }
+
+  .about-content span h1
+  {
+    text-align:center;
+  }
+
+}
+
+@media screen and (min-width: 375px) and (max-width: 425px){
+
+  .my-container
+  {
+    width: 100%!important;
+  }
+
+  .main-content .in-content h1
+  {
+    font-size: 1rem!important;
+  }
+
+  .headerVector
+  {
+    width: 100%!important;
+    height: 100vh;
+  }
+
+  .headerVector img 
+  {
+    width: 100%!important;
+    object-fit: cover;
+
+  }
+
+  .first-illustration
+  {
+    display: block;
+    position: static;
+  }
+
+  .first-illustration img
+  {
+    width: 100%!important;
+  }
+
+  #home 
+  {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center!important;
+    margin-bottom: 2rem;
+  }
+
+  #home .nav-container
+  {
+    width: 100%;
+  }
+
+  #home .main-content .in-content
+  {
+    width: 100%!important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+  }
+
+  #home .main-content .in-content p
+  {
+    font-size: 0.9rem!important;
+    width: 271px;
+  }
+
+  #home .main-content .in-content h1
+  {
+    width: 271px;
+    font-size: 1.3rem!important;
+    font-weight: bold;
+  }
+
+  .header
+  {
+    padding: 0 1rem;
+  }
+
+  .left-nav li a h1
+  {
+    font-size: 1rem!important;
+    font-weight: bold;
+  }
+
+  .left-nav li a img
+  {
+    width: 40px;
+    height: 40px;
+  }
+  
+  .nav-li nav
+  {
+    display: none;
+  }
+
+  .sec-illustration
+  {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+  }
+
+  .sec-illustration img
+  {
+    width: 80%!important;
+  }
+
+  .about-content span
+  {
+    margin: 0 15px;
+  }
+
+  #footer
+  {
+    flex-direction: column;
+  }
+
+  .sec-footer .my-container
+  {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .sec-footer-right
+  {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contact-side {
+    width: 100%!important;
+    padding: 0 1rem!important;
+    margin-bottom: 2rem;
+  }
+
+  .contact-form {
+    width: 100%!important;
+  }
+
+  .card
+  {
+    width: 100%!important;
+  }
+
+  #offers
+  {
+    width: 100%!important;
+    padding: 0 1rem!important;
+  }
+
+  .footer-logo img
+  {
+      width: 40px!important;
+      height: 40px;
+  }
+
+  #footer-Two
+  {
+    padding: 1rem 0;
+    display: flex;
+    flex-direction: column;
+  }
+
+  #footer-Two div
+  {
+    margin-bottom: 1rem;
+  }
+
+  .btn 
+  {
+    width: 300px!important;
+  }
+
+  .about-content span h1
+  {
+    text-align:center;
+  }
+
+}
+
+@media screen and (min-width: 425px) and (max-width: 768px) {
+
+  .my-container
+  {
+    width: 100%!important;
+  }
+
+  .main-content .in-content h1
+  {
+    font-size: 1rem!important;
+  }
+
+  .headerVector
+  {
+    width: 100%!important;
+    height: 100vh;
+  }
+
+  .headerVector img 
+  {
+    width: 100%!important;
+    object-fit: cover;
+
+  }
+
+  .first-illustration
+  {
+    display: block;
+    position: static;
+  }
+
+  .first-illustration img
+  {
+    width: 100%!important;
+  }
+
+  #home 
+  {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center!important;
+    margin-bottom: 2rem;
+  }
+
+  #home .nav-container
+  {
+    margin-top: 1rem;
+    width: 100%;
+  }
+
+  #home .main-content .in-content
+  {
+    width: 100%!important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+  }
+
+  #home .main-content .in-content p
+  {
+    margin: 10px 2.5rem;
+    font-size: 0.9rem!important;
+  }
+
+  #home .main-content .in-content h1
+  {
+    font-size: 1.3rem!important;
+    font-weight: bold;
+  }
+
+  .header
+  {
+    padding: 0 1rem;
+  }
+
+  .left-nav li a h1
+  {
+    font-size: 1rem!important;
+    font-weight: bold;
+  }
+
+  .left-nav li a img
+  {
+    width: 40px;
+    height: 40px;
+  }
+  
+  .nav-li nav
+  {
+    display: none;
+  }
+
+  .sec-illustration
+  {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+  }
+
+  .sec-illustration img
+  {
+    width: 80%!important;
+  }
+
+  .about-content span
+  {
+    margin: 0 15px;
+  }
+
+  #footer
+  {
+    flex-direction: column;
+  }
+
+  .sec-footer .my-container
+  {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .sec-footer-right
+  {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contact-side {
+    width: 100%!important;
+    padding: 0 1rem!important;
+    margin-bottom: 2rem;
+  }
+
+  .contact-form {
+    width: 100%!important;
+  }
+
+  .card
+  {
+    width: 100%!important;
+  }
+
+  #offers
+  {
+    width: 100%!important;
+    padding: 0 1rem!important;
+  }
+
+  .footer-logo img
+  {
+      width: 40px!important;
+      height: 40px;
+  }
+
+  #footer-Two
+  {
+    padding: 1rem 0;
+    display: flex;
+    flex-direction: column;
+  }
+
+  #footer-Two div
+  {
+    margin-bottom: 1rem;
+  }
+
+  .btn 
+  {
+    width: 300px!important;
+  }
+
+  .about-content span h1
+  {
+    text-align:center;
+  }
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px){
+
+  .my-container
+  {
+    width: 100%!important;
+  }
+
+  .main-content .in-content h1
+  {
+    font-size: 1rem!important;
+  }
+
+  .headerVector
+  {
+    width: 100%!important;
+    height: 100vh;
+  }
+
+  .headerVector img 
+  {
+    width: 100%!important;
+    object-fit: cover;
+
+  }
+
+  .first-illustration
+  {
+    display: block;
+    position: static;
+  }
+
+  .first-illustration img
+  {
+    width: 100%!important;
+  }
+
+  #home 
+  {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center!important;
+    margin-bottom: 2rem;
+  }
+
+  #home .nav-container
+  {
+    width: 100%;
+  }
+
+  #home .main-content .in-content
+  {
+    width: 100%!important;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    
+  }
+
+  .right-nav
+  {
+    font-size: 0.7rem;
+    font-weight: bold;
+  }
+
+  #home .main-content .in-content p
+  {
+    /* margin: 10px 2.5rem; */
+    font-size: 0.9rem!important;
+    width: 80%;
+    /* margin: 0 auto; */
+    margin: 0;
+    margin-bottom: 1.5rem;
+  }
+
+  #home .main-content .in-content h1
+  {
+    font-size: 1.3rem!important;
+    font-weight: bold;
+    width: 80%;
+    margin-bottom: 1.5rem;
+    /* margin: 0 auto; */
+  }
+
+  #home .main-content .in-content
+  { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+  }
+
+  .header
+  {
+    padding: 0 1rem;
+  }
+
+  .left-nav li a h1
+  {
+    font-size: 1rem!important;
+    font-weight: bold;
+  }
+
+  .left-nav li a img
+  {
+    width: 40px;
+    height: 40px;
+  }
+  
+  .nav-li nav
+  {
+    display: flex;
+  }
+
+  .nav-li svg
+  {
+    display: none;
+  }
+
+  .sec-illustration
+  {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+  }
+
+  .sec-illustration img
+  {
+    width: 80%!important;
+  }
+
+  .about-content span
+  {
+    margin: 0 15px;
+  }
+
+  #footer
+  {
+    flex-direction: column;
+  }
+
+  .sec-footer .my-container
+  {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .sec-footer-right
+  {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contact-side {
+    width: 100%!important;
+    padding: 0 1rem!important;
+    margin-bottom: 2rem;
+  }
+
+  .contact-form {
+    width: 100%!important;
+  }
+
+  .card
+  {
+    width: 100%!important;
+  }
+
+  #offers
+  {
+    width: 100%!important;
+    padding: 0 1rem!important;
+  }
+
+  .footer-logo img
+  {
+      width: 40px!important;
+      height: 40px;
+  }
+
+  #footer-Two
+  {
+    padding: 1rem 0;
+    display: flex;
+    flex-direction: column;
+  }
+
+  #footer-Two div
+  {
+    margin-bottom: 1rem;
+  }
+
+  .btn 
+  {
+    width: 80%!important;
+  }
+
+  .about-content span h1
+  {
+    text-align:center;
+  }
+
+}
